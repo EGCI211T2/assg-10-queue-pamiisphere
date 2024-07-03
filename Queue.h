@@ -57,6 +57,7 @@ int Queue::dequeue() {
             tailPtr = nullptr; // If queue is empty, reset tail pointer
         }
 
+        cout<<"Dequeing "<<value<<endl;
         return value;
     }
 
@@ -92,6 +93,7 @@ Queue::Queue(){
     
 Queue::~Queue(){
     //delete all remaning Queue (i.e. DQ all) 
+    cout<<"Clearing queue"<<endl;
     while (headPtr != nullptr) {
         dequeue(); // Remove all nodes
     }
