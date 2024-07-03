@@ -34,12 +34,9 @@ void NODE::set_next(NODE *t){
 
 }
 NODE::~NODE(){
-     cout<<"deleting "<<data<<endl;
+     //cout<<"deleting "<<data<<endl;
 
 }
-
-
-
 
 
 
