@@ -22,7 +22,7 @@ int main(int argc , char **argv) {
     while (!q.isEmpty()) {
         int x = q.dequeue();
         if (x != -1) {
-            std::cout << "dequeuing " << x << std::endl;
+            cout << "dequeuing " << x << endl;
         }
     }
   return 0;
